@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="id.ac.itb.toel" version="1.0.0.0">
+
+	<name>TOEL2</name>
+	<description>TO EL</description>
+	<author href="https://tmdgitb.github.io/toel/">Sapta, Intan, Ninis, Sigit, Hendy</author>
+
+	<gap:platforms>
+		<gap:platform name="ios" />
+		<gap:platform name="android" />
+		<gap:platform name="webos" />
+		<gap:platform name="symbian.wrt" />
+		<gap:platform name="blackberry" project="widgets"/>
+	</gap:platforms>
+
+	<icon src="icon-128.png" width="128" height="128" gap:role="default" />
+
+	<preference name="permissions" value="none"/>
+
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<preference name="orientation" value="landscape" />
+	<preference name="fullscreen" value="true" />
+	<preference name="target-device" value="universal" />
+
+	<!-- Optional splash screen image, e.g.: -->
+	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
+
+</widget>
